@@ -1,6 +1,6 @@
 <?php
 
-namespace orm\core;
+namespace ORM\Core;
 
 /**
  * Class SimplifyConnection
