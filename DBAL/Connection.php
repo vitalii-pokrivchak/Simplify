@@ -1,12 +1,12 @@
 <?php
 
-namespace ORM\Core;
+namespace DBAL;
 
 /**
  * Class SimplifyConnection
  * using for connect to database
  */
-class SimplifyConnection extends \PDO
+final class Connection extends \PDO
 {
 
     /** @var string $dsn

@@ -2,9 +2,9 @@
 
 require_once 'bootstrap.php';
 
-use ORM\Core\SimplifyConnection;
+use DBAL\Connection;
 
-$connection = new SimplifyConnection([
+$connection = new Connection([
     'provider' => 'mysql',
     'host' => 'localhost',
     'port' => 3306
