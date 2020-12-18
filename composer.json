@@ -1,6 +1,6 @@
 {
   "name": "jarvis-technologies/simplify",
-  "description": "This is a Simplify ORM for manage SQL queries easly",
+  "description": "This is a official Simplify ORM using in Jarvis Framework",
   "type": "project",
   "license": "MIT",
   "authors": [
@@ -12,8 +12,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "ORM\\": "ORM/",
-      "DBAL\\": "DBAL/"
+      "ORM\\": "ORM/"
     }
   }
 }

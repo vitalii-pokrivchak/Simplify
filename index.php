@@ -1,11 +1,20 @@
 <?php
 
-require_once 'bootstrap.php';
 
-use DBAL\Connection;
+require_once 'vendor/autoload.php';
+
+ini_set('display_errors', 'on');
+ini_set('display_startup_errors', 'on');
+
+error_reporting(E_ALL);
+
+use ORM\Core\Connection;
 
 $connection = new Connection([
-    'provider' => 'mysql',
+    'provider' => '',
     'host' => 'localhost',
-    'port' => 3306
-], "root", "root");
+    'dbname' => 'todo',
+    'port' => 3306,
+    'user' => "root",
+    'password' => 'root'
+]);
